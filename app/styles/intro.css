@@ -1,0 +1,50 @@
+.portfolioImage{
+    animation: changeShape 8s ease-in-out infinite;
+    border: 3px solid black;
+    background-image: url('../assets/profilephoto.jpg');
+    background-size: cover
+}
+.fontStyle1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.fontStyle2{
+    font-size: 1.5rem;
+}
+.profileIconsStyle{
+     color: #2e2e2e;
+     width: 1.75rem;
+}
+
+@keyframes changeShape {
+
+    0% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+            /* Initial circle shape */
+        }
+
+        20% {
+            border-radius: 45% 55% 55% 45%/55% 45% 45% 55%;
+            /* Slight distortion */
+        }
+
+        40% {
+            border-radius: 55% 45% 45% 55%/45% 55% 55% 45%;
+            /* Slight distortion */
+        }
+
+        60% {
+            border-radius: 45% 55% 55% 45%/55% 45% 45% 55%;
+            /* Slight distortion */
+        }
+
+        80% {
+            border-radius: 55% 45% 45% 55%/45% 55% 55% 45%;
+            /* Slight distortion */
+        }
+
+        100% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+            /* Back to original circle shape */
+        }
+}
