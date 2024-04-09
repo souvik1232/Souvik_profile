@@ -15,6 +15,12 @@
      color: #2e2e2e;
      width: 1.75rem;
 }
+.elevate{
+    transition: all .3s ease-in-out;
+}
+.elevate:hover{
+    transform:translateY(-1rem)
+}
 
 @keyframes changeShape {
 

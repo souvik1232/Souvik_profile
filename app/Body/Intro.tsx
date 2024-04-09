@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/intro.css'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -24,8 +25,12 @@ export default function Intro() {
 
                 </div>
             </div>
-            <div>
+            <div className='flex gap-6 py-5'>
                 <span className='fontStyle2'>Tech Stack</span>
+                <div className='cursor-pointer elevate'><img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon"></img></div>
+                <div className='cursor-pointer elevate'><img src="https://skillicons.dev/icons?i=js,ts" alt="skill-icon"></img></div>
+                <div className='cursor-pointer elevate'><img src="https://skillicons.dev/icons?i=react,next,angular" alt="skill-icon"></img></div>
+                <div className='cursor-pointer elevate'><img src="https://skillicons.dev/icons?i=tailwind,scss" alt="skill-icon"></img></div>
             </div>
 
         </div>
