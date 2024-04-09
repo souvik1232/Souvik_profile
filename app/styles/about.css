@@ -1,0 +1,48 @@
+.aboutPlaceholder {
+  position: relative;
+  background-image: url("../assets/profilephoto.jpg");
+  background-size: cover;
+  border-radius: 5%;
+}
+.logo {
+  position: absolute;
+  transform: translate(30%, 30%);
+  background-color: white;
+  bottom: 0;
+  right: 0;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  /* animation: rotate 9s linear infinite; */
+}
+.logo1 {
+  position: absolute;
+  transform: translate(10%, 10%);
+  background-color: white;
+  bottom: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+}
+h3 {
+  font-size: 1.5rem;
+  color: #147efb;
+  font-weight: 500;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
