@@ -19,7 +19,7 @@ export default function Intro() {
           <div className='flex gap-6 py-5'>
             <a href='https://github.com/souvik1232' target='_blank'>
               <FontAwesomeIcon
-                icon={faLinkedin}
+                icon={faGithub}
                 size='2xs'
                 className='profileIconsStyle hover:text-sky-600 cursor-pointer'
               />
@@ -28,7 +28,7 @@ export default function Intro() {
               href='https://www.linkedin.com/in/souvik-mandal-8051041b8/'
               target='_blank'>
               <FontAwesomeIcon
-                icon={faGithub}
+                icon={faLinkedin}
                 size='2xs'
                 className='profileIconsStyle hover:text-sky-600 cursor-pointer'
               />
