@@ -5,7 +5,9 @@ import work from "../assets/work.png";
 
 export default function Aboutme() {
   return (
-    <div className='flex justify-center py-60 bg-white gap-20' id='aboutme'>
+    <div
+      className='flex justify-center py-60 px-80 bg-white gap-20  items-center'
+      id='aboutme'>
       <div className='p-44 aboutPlaceholder'>
         <Image priority src={asset} alt='Souvik' className='logo' />
         <Image priority src={work} alt='Souvik' className='logo1' />
@@ -13,16 +15,23 @@ export default function Aboutme() {
       <div className='flex flex-col justify-center'>
         <h3>ABOUT ME</h3>
         <h4>
-          Front-end Developer
+          Full-stack Developer
           <br />
           based in Delhi, India 📍
         </h4>
         <p>
-          Hey, my name is Souvik, and I&apos;m a Frontend Developer. My passion
+          Hey, my name is Souvik, and I&apos;m a Fullstack Developer. My passion
+          <br />
           is to create and develop a clean UI/UX for my users.
           <br />
+          <br />
           My main stack currently is Angular/React/Next.js in combination with
-          Tailwind CSS and TypeScript.
+          <br />
+          Tailwind CSS and TypeScript, alongside Node.js for server-side
+          <br />
+          operations, and I utilize AWS and Azure for cloud services and
+          <br />
+          infrastructure.
         </p>
       </div>
     </div>
