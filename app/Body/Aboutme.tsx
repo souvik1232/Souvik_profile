@@ -5,7 +5,7 @@ import work from "../assets/work.png";
 
 export default function Aboutme() {
   return (
-    <div className='flex justify-center py-60 bg-white gap-20'>
+    <div className='flex justify-center py-60 bg-white gap-20' id='aboutme'>
       <div className='p-44 aboutPlaceholder'>
         <Image priority src={asset} alt='Souvik' className='logo' />
         <Image priority src={work} alt='Souvik' className='logo1' />

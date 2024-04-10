@@ -7,7 +7,7 @@ import '../styles/intro.css'
 /* eslint-disable react/no-unescaped-entities */
 export default function Intro() {
     return (
-        <div className="flex justify-center bg-gray-100 flex-col px-96">
+        <div className="flex justify-center bg-gray-100 flex-col px-96" id='intro'>
             <div className="flex flex-row py-20 align-center" >
                 <div className="flex flex-col justify-center">
                     <span className='fontStyle1'>
