@@ -19,10 +19,13 @@ export default function Aboutme() {
           <br />
           based in Delhi, India 📍
         </h4>
+        <br />
+        <br />
         <p>
           Hey, my name is Souvik, and I&apos;m a Fullstack Developer. My passion
           <br />
-          is to create and develop a clean UI/UX for my users.
+          is to create and develop a clean UI with a reliable backend for my
+          users.
           <br />
           <br />
           My main stack currently is Angular/React/Next.js in combination with

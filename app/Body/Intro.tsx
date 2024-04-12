@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "../styles/intro.css";
+import Socialicons from "../common/Socialicons";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Intro() {
@@ -16,24 +15,7 @@ export default function Intro() {
             Hi, I'm Souvik Mandal. A passionate Full-stack Developer based in
             Delhi, India. 📍
           </span>
-          <div className='flex gap-6 py-5'>
-            <a href='https://github.com/souvik1232' target='_blank'>
-              <FontAwesomeIcon
-                icon={faGithub}
-                size='2xs'
-                className='profileIconsStyle hover:text-sky-600 cursor-pointer'
-              />
-            </a>
-            <a
-              href='https://www.linkedin.com/in/souvik-mandal-8051041b8/'
-              target='_blank'>
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                size='2xs'
-                className='profileIconsStyle hover:text-sky-600 cursor-pointer'
-              />
-            </a>
-          </div>
+          <Socialicons white='black' />
         </div>
         <div className='p-44 rounded-full portfolioImage'></div>
       </div>

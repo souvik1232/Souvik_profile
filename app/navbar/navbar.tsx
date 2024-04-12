@@ -1,5 +1,6 @@
 // import React from "react";
 "use client";
+import Darkmode from "../common/Darkmode";
 import "../styles/navbar.css";
 
 export default function Navbar() {
@@ -14,7 +15,7 @@ export default function Navbar() {
     target?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className='flex justify-between px-12 py-6  shadow-md bg-gray-50'>
+    <div className='flex justify-between px-12 py-6 items-center shadow-md bg-gray-50'>
       <span className='userNameFont'>Souvik.dev</span>
       <div className='flex gap-6 optionsFont'>
         {navbarOptions.map((item) => {
@@ -28,6 +29,7 @@ export default function Navbar() {
           );
         })}
       </div>
+      {/* <Darkmode /> */}
     </div>
   );
 }
