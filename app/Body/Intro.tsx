@@ -6,7 +6,7 @@ import Socialicons from "../common/Socialicons";
 export default function Intro() {
   return (
     <div
-      className='flex justify-center bg-gray-100 flex-col px-80 h-screen'
+      className='flex justify-center bg-gray-100 flex-col px-80 h-screen items-center'
       id='intro'>
       <div className='flex flex-row py-20 align-center'>
         <div className='flex flex-col justify-center'>

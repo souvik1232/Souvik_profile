@@ -23,6 +23,8 @@
   right: 0;
   height: 5rem;
   width: 5rem;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 h3 {
   font-size: 1.5rem;
