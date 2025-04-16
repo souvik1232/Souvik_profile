@@ -17,7 +17,7 @@ export default function Aboutme() {
         <h4>
           Full-stack Developer
           <br />
-          based in Delhi, India 📍
+          based in Bangalore, India 📍
         </h4>
         <br />
         <br />
@@ -28,7 +28,8 @@ export default function Aboutme() {
           users.
           <br />
           <br />
-          My main stack currently is Angular/React/Next.js in combination with
+          My main stack currently includes Angular, React, and Next.js — which I&apos;m
+          actively working with. I use
           <br />
           Tailwind CSS and TypeScript, alongside Node.js for server-side
           <br />

@@ -21,7 +21,7 @@ export default function Contact() {
           </span>
           <div className='flex flex-col'>
             <span className='headerStyle1'>Location</span>
-            <span className='headerStyle2'>Delhi, India</span>
+            <span className='headerStyle2'>Bangalore, India</span>
           </div>
         </div>
 

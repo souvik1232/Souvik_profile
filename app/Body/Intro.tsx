@@ -13,7 +13,7 @@ export default function Intro() {
           <span className='fontStyle1'>Full-stack Developer 🖖</span>
           <span className='fontStyle2'>
             Hi, I'm Souvik Mandal. A passionate Full-stack Developer based in
-            Delhi, India. 📍
+            Bangalore, India. 📍
           </span>
           <Socialicons color='black' />
         </div>
@@ -33,7 +33,7 @@ export default function Intro() {
         </div>
         <div className='cursor-pointer elevate'>
           <img
-            src='https://skillicons.dev/icons?i=react,next,angular'
+            src='https://skillicons.dev/icons?i=react,next'
             alt='skill-icon'></img>
         </div>
         <div className='cursor-pointer elevate'>
@@ -43,7 +43,7 @@ export default function Intro() {
         </div>
         <div className='cursor-pointer elevate'>
           <img
-            src='https://skillicons.dev/icons?i=nodejs,azure,aws'
+            src='https://skillicons.dev/icons?i=nodejs,azure'
             alt='skill-icon'></img>
         </div>
       </div>
