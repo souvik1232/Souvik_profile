@@ -7,7 +7,7 @@ export default function Navbar() {
   const navbarOptions = [
     { id: "intro", value: "Home" },
     { id: "aboutme", value: "About" },
-    { id: "aboutme", value: "Project" },
+    { id: "project", value: "Project" },
     { id: "contact", value: "Contact" },
   ];
   const handleCLick = (value) => {

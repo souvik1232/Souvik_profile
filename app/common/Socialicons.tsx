@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../styles/intro.css";
 
-export default function Socialicons({ white }) {
+export default function Socialicons({ color }) {
   return (
     <div className='flex gap-6 py-5'>
       <a href='https://github.com/souvik1232' target='_blank'>
@@ -11,7 +11,7 @@ export default function Socialicons({ white }) {
           icon={faGithub}
           size='2xs'
           className='profileIconsStyle hover:text-sky-600 cursor-pointer'
-          style={{ color: `${white}` }}
+          style={{ color: `${color}` }}
         />
       </a>
       <a
@@ -21,7 +21,7 @@ export default function Socialicons({ white }) {
           icon={faLinkedin}
           size='2xs'
           className='profileIconsStyle hover:text-sky-600 cursor-pointer'
-          style={{ color: `${white}` }}
+          style={{ color: `${color}` }}
         />
       </a>
     </div>

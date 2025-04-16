@@ -8,7 +8,7 @@ export default function Copyright() {
       <span className='content-copyright'>
         Copyright © 2024. All rights are reserved
       </span>
-      <Socialicons white='white' />
+      <Socialicons color='white' />
     </div>
   );
 }

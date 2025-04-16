@@ -2,6 +2,7 @@ import Aboutme from "./Body/Aboutme";
 import Contact from "./Body/Contact";
 import Copyright from "./Body/Copyright";
 import Intro from "./Body/Intro";
+import Projects from "./Body/Projects";
 import Navbar from "./navbar/navbar";
 import { Poppins } from "next/font/google";
 const poppins = Poppins({
@@ -19,6 +20,7 @@ export default function Home() {
       <div id='portfolio-body' className='portfolioBody'>
         <Intro />
         <Aboutme />
+        <Projects />
         <Contact />
         <Copyright />
       </div>

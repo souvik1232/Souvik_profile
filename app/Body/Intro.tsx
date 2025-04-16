@@ -15,7 +15,7 @@ export default function Intro() {
             Hi, I'm Souvik Mandal. A passionate Full-stack Developer based in
             Delhi, India. 📍
           </span>
-          <Socialicons white='black' />
+          <Socialicons color='black' />
         </div>
         <div className='p-44 rounded-full portfolioImage'></div>
       </div>
