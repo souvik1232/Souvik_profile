@@ -9,7 +9,7 @@ export default function Contact() {
     window.location.href = "mailto:souvik199831@gmail.com";
   };
   return (
-    <div className='flex px-80 py-40  flex-col bg-white gap-10' id='contact'>
+    <div className='flex px-80 py-40  flex-col bg-gray-100 gap-10 items-center' id='contact'>
       <div>
         <h3>CONTACT</h3>
         <h4>Don&apos;t be shy! Hit me up! 👇</h4>
