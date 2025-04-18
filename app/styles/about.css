@@ -2,8 +2,12 @@
   position: relative;
   background-image: url("../assets/profilephoto.jpg");
   background-size: cover;
+  background-position: center;
   border-radius: 5%;
   max-height: 22rem;
+  width: 100%;
+  max-width: 22rem;
+  margin-bottom: 2rem;
 }
 .logo {
   position: absolute;

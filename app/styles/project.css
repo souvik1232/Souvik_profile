@@ -1,3 +1,13 @@
 .projectStyle {
   font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .projectStyle {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
 }

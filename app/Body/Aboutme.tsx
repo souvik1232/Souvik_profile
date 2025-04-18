@@ -6,11 +6,11 @@ import work from "../assets/work.png";
 export default function Aboutme() {
   return (
     <div
-      className='flex justify-center py-60 px-80 bg-white gap-20 h-screen items-center'
+      className='flex flex-col md:flex-row justify-center items-center py-20 px-6 md:py-60 md:px-80 bg-white gap-10 md:gap-20 min-h-screen'
       id='aboutme'>
       <div className='p-44 aboutPlaceholder'>
-        <Image priority src={asset} alt='Souvik' className='logo' />
-        <Image priority src={work} alt='Souvik' className='logo1' />
+        <Image priority src={asset} alt='Souvik' className='logo hidden md:block' width="100" height="100" />
+        <Image priority src={work} alt='Souvik' className='logo1 hidden md:block' width="100" height="100" />
       </div>
       <div className='flex flex-col justify-center'>
         <h3>ABOUT ME</h3>

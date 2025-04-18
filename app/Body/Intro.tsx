@@ -6,46 +6,45 @@ import Socialicons from "../common/Socialicons";
 export default function Intro() {
   return (
     <div
-      className='flex justify-center bg-gray-100 flex-col px-80 h-screen items-center'
-      id='intro'>
-      <div className='flex flex-row py-20 align-center'>
-        <div className='flex flex-col justify-center'>
-          <span className='fontStyle1'>Full-stack Developer 🖖</span>
-          <span className='fontStyle2'>
-            Hi, I'm Souvik Mandal. A passionate Full-stack Developer based in
-            Bangalore, India. 📍
-          </span>
-          <Socialicons color='black' />
+      className="flex justify-center bg-gray-100 flex-col px-6 md:px-80 min-h-screen items-center"
+      id="intro"
+    >
+      <div className="flex flex-col-reverse md:flex-row py-10 md:py-20 items-center gap-10">
+        <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center text-center md:text-left items-center md:items-start">
+            <span className="fontStyle1">Full-stack Developer 🖖</span>
+            <span className="fontStyle2">
+              Hi, I'm Souvik Mandal. A passionate Full-stack Developer based in
+              Bangalore, India. 📍
+            </span>
+
+            {/* Center-align on mobile */}
+            <div className="flex justify-center md:justify-start w-full mt-4">
+              <Socialicons color="black" />
+            </div>
+          </div>
         </div>
-        <div className='p-44 rounded-full portfolioImage'></div>
+        <div className="p-44 rounded-full portfolioImage"></div>
       </div>
-      <div className='flex gap-6 py-5 items-center'>
-        <span className='fontStyle2'>Tech Stack</span>
-        <div className='cursor-pointer elevate'>
-          <img
-            src='https://skillicons.dev/icons?i=html,css'
-            alt='skill-icon'></img>
-        </div>
-        <div className='cursor-pointer elevate'>
-          <img
-            src='https://skillicons.dev/icons?i=js,ts'
-            alt='skill-icon'></img>
-        </div>
-        <div className='cursor-pointer elevate'>
-          <img
-            src='https://skillicons.dev/icons?i=react,next'
-            alt='skill-icon'></img>
-        </div>
-        <div className='cursor-pointer elevate'>
-          <img
-            src='https://skillicons.dev/icons?i=tailwind,scss'
-            alt='skill-icon'></img>
-        </div>
-        <div className='cursor-pointer elevate'>
-          <img
-            src='https://skillicons.dev/icons?i=nodejs,azure'
-            alt='skill-icon'></img>
-        </div>
+
+      {/* Responsive Tech Stack */}
+      <div className="flex flex-wrap gap-4 py-5 justify-center items-center">
+        <span className="w-full text-center fontStyle2 mb-2">Tech Stack</span>
+
+        {[
+          "html,css",
+          "js,ts",
+          "react,next",
+          "tailwind,scss",
+          "nodejs,azure",
+        ].map((icons, idx) => (
+          <div className="cursor-pointer elevate" key={idx}>
+            <img
+              src={`https://skillicons.dev/icons?i=${icons}`}
+              alt="skill-icon"
+            />
+          </div>
+        ))}
       </div>
     </div>
   );
